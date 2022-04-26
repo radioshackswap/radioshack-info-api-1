@@ -1,0 +1,15 @@
+{
+  "name": "RadioShack Exchange",
+  "schemaPath": "schema.graphql",
+  "extensions": {
+    "endpoints": {
+      "RadioShack Exchange": {
+        "url": "https://api.thegraph.com/subgraphs/name/radioshackcreator/exchange-ethereum",
+        "headers": {
+          "user-agent": "JS GraphQL"
+        },
+        "introspect": false
+      }
+    }
+  }
+}
